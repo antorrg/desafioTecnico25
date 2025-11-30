@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "target": "ESNext",
+        "module": "NodeNext",
+        "removeComments": true,
+        "moduleResolution": "NodeNext",
+        "types": ["node"],
+        "resolveJsonModule": true,
+        "noEmit": false,
+        "outDir": "dist",
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict":true,
+        "strictPropertyInitialization": false
+    },
+    "include": ["src", "index.ts"],
+    "exclude": ["node_modules", "dist", "test", "data", "**/*.test.ts", "**/*.help.ts"]
+}
